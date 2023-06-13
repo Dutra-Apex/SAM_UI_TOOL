@@ -13,6 +13,11 @@ import pathlib
 import os
 import argparse
 
+# TODO:
+# Fix Image sizing: The idea is to resize the image to a small size (800x600) to have a smaller tk window.
+# Need to make sure that the points clicked on the smaller image will correctly transfer to the original.
+
+
 class SAMForm:
     def __init__(self, args, master, images: List[str]) -> None:
         self.master = master
