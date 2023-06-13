@@ -14,8 +14,10 @@ import os
 import argparse
 
 # TODO:
-# Fix Image sizing: The idea is to resize the image to a small size (800x600) to have a smaller tk window.
+# - Fix Image sizing: The idea is to resize the image to a small size (800x600) to have a smaller tk window.
 # Need to make sure that the points clicked on the smaller image will correctly transfer to the original.
+# - Fix a bug where the mask being saved to image x is the mask generated for the previous image.
+# Not sure why this is happening.
 
 
 class SAMForm:
